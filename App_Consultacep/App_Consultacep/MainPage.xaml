@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App_Consultacep.MainPage">
+
+    <StackLayout Backgroundcolor ="FFBF00" Padding="30" Spacing="30">
+        <!-- Place new controls here -->
+
+        <Image Source="LogoCorreios.png" x:Name="cLogo"/>
+
+        <Entry Placeholder="Digite o Cep" x:Name="cCep"
+               PlaceholderColor="FFBF00"
+               BackgroundColor="FFFFF"/>
+
+        <Button Text="Buscar CEP"
+                TextColor="FFFFF"
+                BackGroundColor="00416bB"/>
+        <Label Text="by ryan!" x:Name="cResultado" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+    </StackLayout>
+
+</ContentPage>
